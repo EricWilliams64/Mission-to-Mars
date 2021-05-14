@@ -73,7 +73,7 @@ def mars_facts():
         return None
     df.columns=['description', 'Mars', 'Earth']
     df.set_index('description', inplace=True)
-    #conver DF into html format, add bootstrap
+    #convert DF into html format, add bootstrap
     return df.to_html()
 
 
